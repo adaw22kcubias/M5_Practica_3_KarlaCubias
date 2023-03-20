@@ -8,7 +8,7 @@ package com.mycompany.practica_3_karlacubias;
  *
  * @author Karla Cubias
  */
-public class Metodos {
+public class MyUtils {
 
     /**
      *
@@ -18,6 +18,7 @@ public class Metodos {
     public static String inverteix(String cadena) {
         String resultat = "";
         return resultat;
+
     }
 
     /**
@@ -31,7 +32,17 @@ public class Metodos {
      */
     public static int edat(int day, int month, int year) {
         int resultat = 0;
+       
+        
+        
+        
+        
+        
+        
+        
+        
         return resultat;
+        
     }
 
     /**
