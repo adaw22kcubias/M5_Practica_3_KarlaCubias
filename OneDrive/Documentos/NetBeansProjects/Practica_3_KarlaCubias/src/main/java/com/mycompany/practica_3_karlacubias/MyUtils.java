@@ -45,7 +45,6 @@ public class MyUtils {
     public static int edat(int dayIn, int mesIn, int anyIn) {
         int anyActual = 2023;
         int anyImpossible = 150;
-       
 
         //calcular edad
         int edatCalculada = anyActual - anyIn;
@@ -82,7 +81,6 @@ public class MyUtils {
 
         if (numRebut < factorial) {
 
-            System.out.println("-1");
             return -1;
 
         } else {
@@ -90,7 +88,7 @@ public class MyUtils {
             for (int i = 1; i <= numRebut; i++) {
                 factorial *= i;
             }
-            System.out.println(factorial);
+
 
             return factorial;
         }
