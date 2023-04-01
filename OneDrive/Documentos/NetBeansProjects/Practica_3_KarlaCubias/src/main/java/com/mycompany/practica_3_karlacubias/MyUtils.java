@@ -28,7 +28,6 @@ public class MyUtils {
 
                 texto += cadena.charAt(i);
             }
-
             return texto;
         }
     }
@@ -72,15 +71,19 @@ public class MyUtils {
     /**
      *
      * @param numRebut número del que es calcula el factorial
-     * @return retorna el factorial d'un número. Si el nombre es negatiu retorna
+     * @return retorna el factorial d'un nombre. Si el nombre es negatiu retorna
      * -1.
      */
     public static double factorial(double numRebut) {
 
         int factorial = 1;
 
-        if (numRebut < factorial) {
+        if (numRebut == 0) {
 
+            return 1;
+
+        } else if (numRebut < 0) {
+            
             return -1;
 
         } else {
@@ -88,7 +91,6 @@ public class MyUtils {
             for (int i = 1; i <= numRebut; i++) {
                 factorial *= i;
             }
-
 
             return factorial;
         }
